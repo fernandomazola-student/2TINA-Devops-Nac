@@ -1,0 +1,23 @@
+{
+  "name": "am-node",
+  "version": "1.0.0",
+  "description": "NAC da disciplina Security Devops - 2TINA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renefb/fiap-devops.git"
+  },
+  "author": "renefb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://https://github.com/renefb/fiap-devops/issues"
+  },
+  "homepage": "https://github.com/renefb/fiap-devops#README",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
