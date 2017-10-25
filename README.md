@@ -1,12 +1,12 @@
-# fiap-devops
+# SECURITY DEVOPS
+# INSTRUÇÕES PARA REALIZAÇÃO DO TESTE - SECURITY DEVOPS
+# (https://github.com/fiap2tin):
 
-### Para a 2a NAC da disciplina [Security Devops](https://github.com/fiap2tin):
-
-Após download/clone do projeto, acessar a pasta `fiap-devops/nac_docker` e usar o arquivo `Dockerimage` para criar a imagem:
+1º Download do projeto/git clone, acessar a pasta onde se encontra o dockerfile e usar o arquivo `Dockerimage` para criar a imagem:
 
 `$ docker build -t <minha-imagem> .`
 
-Concluída a criação, rodar a imagem mapeando a porta `3000` do container para uma porta específica do host:
+Após a criação, rodar a imagem mapeando a porta `3000` do container para uma porta específica do host:
 
 `$ docker run --rm --name <meu-container> -p <porta_do_host>:3000 <minha-imagem>`
 
